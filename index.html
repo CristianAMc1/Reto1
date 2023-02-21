@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Computador Compra</title>
+</head>
+<body>
+    
+    <article class="container">
+    <form class="form" action="">
+    <div id="imagen" class="imagen">
+        <img class="img" id="img" src="./img/compu_img.png" alt="computador">
+    </div> 
+    
+    <h1>Computador Gamer 2023</h1>
+
+    <input 
+    type="text" 
+    id="cantidad"
+    class="cantidad"
+    placeholder="Ingrese la cantidad"
+    required
+    >
+    <select name="select" id="selectColor" class="selectColor" required>
+        <option value="seleccione">Seleccione color</option>
+        <option value="negro">Negro</option>
+        <option value="grisoscuro">Gris oscuro</option>
+        <option value="grisclaro">Gris claro</option>
+        <option value="azul">Azul</option>
+    </select>
+
+    <p class="precio"> Precio: $3.500.000</p>
+
+    <button type="button" class="btnCalcular" id="btnCalcular">Calcular</button>
+    </form>
+
+        <article id="datosCompra" class="datosCompra">
+        <div id="card-body" class="card-body">
+            <h2>En tu carrito</h2>
+            <p class="total-cantidad">Cantidad: 0</p>
+            <p class="text-color">Color</p>
+            <div class="color">0</div>
+            <h3 class="total">Total: $0</h3>
+        </div>
+    </article>
+    
+    
+    </article>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
